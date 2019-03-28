@@ -11,5 +11,8 @@ jobs:
           name: Mount sources
           command: cp -rf /home/rust/repo .
       - run:
+          name: List sources
+          command: ls -la
+      - run:
           name: Test hello world
           command: cargo test -p hello-world
