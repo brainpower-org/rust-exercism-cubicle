@@ -16,3 +16,15 @@ Work on the Rust track of exercism in a turn-key environment.
 docker-compose pull
 docker-compose up
 ```
+
+## Run tests for one package
+
+```
+cargo test -p 'hello-world'
+```
+
+## Watch tests for one package
+
+```
+cargo watch -x 'test -p hello-world'
+```
