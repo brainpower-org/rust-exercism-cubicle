@@ -3,16 +3,10 @@ jobs:
   build:
     docker:
       - image: marionebl/move_rs_dev
-    working_directory: /home/rust/src/src
+    working_directory: /home/rust/repo
     steps:
       - checkout:
           path: /home/rust/repo
-      - run:
-          name: Mount sources
-          command: cp -rf /home/rust/repo .
-      - run:
-          name: List sources
-          command: ls -la
       - run:
           name: Test hello world
           command: cargo test -p hello-world
