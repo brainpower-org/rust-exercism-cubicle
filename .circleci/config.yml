@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: marionebl/move_rs_dev
-    working_directory: /home/rust/src
+    working_directory: /home/rust/src/src
     steps:
       - checkout:
           path: /home/rust/repo
