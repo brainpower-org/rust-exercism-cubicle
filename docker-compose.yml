@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  rust-cubicle:
+  exercism:
     build: .
     image: marionebl/rust-exercism-cubicle
     ports:
