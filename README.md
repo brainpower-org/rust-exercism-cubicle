@@ -2,8 +2,8 @@
 
 Work on the Rust track of exercism in a turn-key environment.
 
-![](https://img.shields.io/circleci/project/github/marionebl/rust-exercism-cubicle/master.svg?style=flat-square)
-![](https://img.shields.io/docker/cloud/build/marionebl/rust-exercism-cubicle.svg?label=docker&style=flat-square)
+[![][ci-badge]][ci-url]
+[![][docker-badge]][docker-url]
 
 ## Prerequesites
 
@@ -28,3 +28,9 @@ cargo test -p 'hello-world'
 ```
 cargo watch -x 'test -p hello-world'
 ```
+
+[ci-badge]: https://img.shields.io/circleci/project/github/sinnerschrader/rust-exercism-cubicle/master.svg?style=flat-square
+[ci-url]: https://circleci.com/gh/sinnerschrader/rust-exercism-cubicle
+
+[docker-badge]: https://img.shields.io/docker/cloud/build/marionebl/rust-exercism-cubicle.svg?label=docker&style=flat-square
+[docker-url]: https://cloud.docker.com/u/marionebl/repository/docker/marionebl/rust-exercism-cubicle
