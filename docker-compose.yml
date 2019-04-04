@@ -7,7 +7,7 @@ services:
     ports:
       - '8443:8443'
     volumes:
-      - ".:/home/rust/src/"
+      - ".:/root/project/"
     environment:
       - CARGO_TARGET_DIR=/home/rust/target
     command: code-server --allow-http --no-auth
