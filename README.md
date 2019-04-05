@@ -120,8 +120,8 @@ cargo watch -x 'test -p hello-world'
 - [ ] dominoes  - 10
 - [ ] forth (core) - 10
 
-[ci-badge]: https://img.shields.io/circleci/project/github/brainpower/rust-exercism-cubicle/master.svg?style=flat-square
-[ci-url]: https://circleci.com/gh/brainpower/rust-exercism-cubicle
+[ci-badge]: https://img.shields.io/circleci/project/github/brainpower-org/rust-exercism-cubicle/master.svg?style=flat-square
+[ci-url]: https://circleci.com/gh/brainpower-org/rust-exercism-cubicle
 
 [docker-badge]: https://img.shields.io/docker/cloud/build/brainpower/rust-exercism-cubicle.svg?label=docker&style=flat-square
 [docker-url]: https://cloud.docker.com/u/brainpower/repository/docker/brainpower/rust-exercism-cubicle
