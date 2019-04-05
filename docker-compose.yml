@@ -3,7 +3,7 @@ version: '3'
 services:
   exercism:
     build: .
-    image: marionebl/rust-exercism-cubicle
+    image: brainpower/rust-exercism-cubicle
     ports:
       - '8443:8443'
     volumes:

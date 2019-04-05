@@ -29,8 +29,8 @@ cargo test -p 'hello-world'
 cargo watch -x 'test -p hello-world'
 ```
 
-[ci-badge]: https://img.shields.io/circleci/project/github/sinnerschrader/rust-exercism-cubicle/master.svg?style=flat-square
-[ci-url]: https://circleci.com/gh/sinnerschrader/rust-exercism-cubicle
+[ci-badge]: https://img.shields.io/circleci/project/github/brainpower/rust-exercism-cubicle/master.svg?style=flat-square
+[ci-url]: https://circleci.com/gh/brainpower/rust-exercism-cubicle
 
-[docker-badge]: https://img.shields.io/docker/cloud/build/marionebl/rust-exercism-cubicle.svg?label=docker&style=flat-square
-[docker-url]: https://cloud.docker.com/u/marionebl/repository/docker/marionebl/rust-exercism-cubicle
+[docker-badge]: https://img.shields.io/docker/cloud/build/brainpower/rust-exercism-cubicle.svg?label=docker&style=flat-square
+[docker-url]: https://cloud.docker.com/u/brainpower/repository/docker/brainpower/rust-exercism-cubicle
