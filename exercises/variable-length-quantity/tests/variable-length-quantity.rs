@@ -1,6 +1,7 @@
 use variable_length_quantity as vlq;
 
 #[test]
+#[ignore]
 fn to_single_byte() {
     assert_eq!(&[0x00], vlq::to_bytes(&[0x00]).as_slice());
     assert_eq!(&[0x40], vlq::to_bytes(&[0x40]).as_slice());

@@ -84,6 +84,7 @@ fn assert_correct(input: &[Domino]) {
 }
 
 #[test]
+#[ignore]
 fn empty_input_empty_output() {
     let input = &[];
     assert_eq!(dominoes::chain(input), Some(vec![]));

@@ -1,6 +1,7 @@
 use scrabble_score::*;
 
 #[test]
+#[ignore]
 fn a_is_worth_one_point() {
     assert_eq!(score("a"), 1);
 }

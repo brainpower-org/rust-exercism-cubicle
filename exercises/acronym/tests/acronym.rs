@@ -1,6 +1,7 @@
 use acronym;
 
 #[test]
+#[ignore]
 fn empty() {
     assert_eq!(acronym::abbreviate(""), "");
 }

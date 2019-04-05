@@ -1,6 +1,7 @@
 use ocr_numbers as ocr;
 
 #[test]
+#[ignore]
 #[cfg_attr(rustfmt, rustfmt_skip)]
 fn input_with_lines_not_multiple_of_four_is_error() {
     let input = " _ \n".to_string() +

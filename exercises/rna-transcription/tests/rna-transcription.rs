@@ -1,6 +1,7 @@
 use rna_transcription as dna;
 
 #[test]
+#[ignore]
 fn test_valid_dna_input() {
     assert!(dna::DNA::new("GCTA").is_ok());
 }

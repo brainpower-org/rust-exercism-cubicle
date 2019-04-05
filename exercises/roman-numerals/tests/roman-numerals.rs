@@ -1,6 +1,7 @@
 use roman_numerals::*;
 
 #[test]
+#[ignore]
 fn test_one() {
     assert_eq!("I", Roman::from(1).to_string());
 }

@@ -3,6 +3,7 @@ use etl;
 use std::collections::BTreeMap;
 
 #[test]
+#[ignore]
 fn test_transform_one_value() {
     let input = input_from(&[(1, vec!['A'])]);
 

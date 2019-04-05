@@ -1,6 +1,7 @@
 use circular_buffer::{CircularBuffer, Error};
 
 #[test]
+#[ignore]
 fn error_on_read_empty_buffer() {
     let mut buffer = CircularBuffer::<char>::new(1);
     assert_eq!(Err(Error::EmptyBuffer), buffer.read());

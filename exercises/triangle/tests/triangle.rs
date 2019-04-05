@@ -1,6 +1,7 @@
 use triangle::*;
 
 #[test]
+#[ignore]
 fn positive_length_sides_are_ok() {
     let sides = [2, 2, 2];
     let triangle = Triangle::build(sides);

@@ -1,6 +1,7 @@
 use largest_series_product::*;
 
 #[test]
+#[ignore]
 fn return_is_a_result() {
     assert!(lsp("29", 2).is_ok());
 }

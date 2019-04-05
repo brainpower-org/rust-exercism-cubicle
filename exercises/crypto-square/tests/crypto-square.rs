@@ -5,6 +5,7 @@ fn test(input: &str, output: &str) {
 }
 
 #[test]
+#[ignore]
 fn test_empty_input() {
     test("", "")
 }

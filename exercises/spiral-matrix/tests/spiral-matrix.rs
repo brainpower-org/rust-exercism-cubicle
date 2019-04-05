@@ -1,6 +1,7 @@
 use spiral_matrix::*;
 
 #[test]
+#[ignore]
 fn empty_spiral() {
     let expected: Vec<Vec<u32>> = Vec::new();
     assert_eq!(spiral_matrix(0), expected);

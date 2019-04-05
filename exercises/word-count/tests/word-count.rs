@@ -16,6 +16,7 @@ fn check_word_count(s: &str, pairs: &[(&str, u32)]) {
 }
 
 #[test]
+#[ignore]
 fn test_count_one_word() {
     check_word_count("word", &[("word", 1)]);
 }

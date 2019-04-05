@@ -23,6 +23,7 @@ fn process_total_case(input: (Vec<u32>, Vec<Vec<u32>>), expected: u32) {
 // one copy of any single book in a grouping.
 
 #[test]
+#[ignore]
 /// Only a single book
 fn test_only_a_single_book() {
     process_total_case((vec![1], vec![vec![1]]), 800);

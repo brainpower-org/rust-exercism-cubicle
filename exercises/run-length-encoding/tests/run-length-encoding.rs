@@ -3,6 +3,7 @@ use run_length_encoding as rle;
 // encoding tests
 
 #[test]
+#[ignore]
 fn test_encode_empty_string() {
     assert_eq!("", rle::encode(""));
 }

@@ -1,6 +1,7 @@
 use prime_factors::factors;
 
 #[test]
+#[ignore]
 fn test_no_factors() {
     assert_eq!(factors(1), vec![]);
 }

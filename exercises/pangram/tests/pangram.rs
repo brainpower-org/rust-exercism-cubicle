@@ -1,6 +1,7 @@
 use pangram::*;
 
 #[test]
+#[ignore]
 fn empty_strings_are_not_pangrams() {
     let sentence = "";
     assert!(!is_pangram(&sentence));

@@ -5,6 +5,7 @@ const PLAIN_TEXT: &str = "thisismysecret";
 const KEY: &str = "abcdefghij";
 
 #[test]
+#[ignore]
 fn cipher_can_encode_with_given_key() {
     assert_eq!(encode(KEY, "aaaaaaaaaa"), Some(KEY.to_string()));
 }

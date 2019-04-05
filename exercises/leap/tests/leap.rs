@@ -5,6 +5,7 @@ fn process_leapyear_case(year: u64, expected: bool) {
 }
 
 #[test]
+#[ignore]
 fn test_year_divisible_by_4_not_divisible_by_100_leap_year() {
     process_leapyear_case(1996, true);
 }

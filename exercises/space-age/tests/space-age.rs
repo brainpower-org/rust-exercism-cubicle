@@ -12,6 +12,7 @@ fn assert_in_delta(expected: f64, actual: f64) {
 }
 
 #[test]
+#[ignore]
 fn earth_age() {
     let duration = Duration::from(1_000_000_000);
     assert_in_delta(31.69, Earth::years_during(&duration));

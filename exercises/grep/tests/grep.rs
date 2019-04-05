@@ -162,6 +162,7 @@ fn process_grep_case(pattern: &str, flags: &[&str], files: &[&str], expected: &[
 // Test returning a Result
 
 #[test]
+#[ignore]
 fn test_nonexistent_file_returns_error() {
     let pattern = "Agamemnon";
 

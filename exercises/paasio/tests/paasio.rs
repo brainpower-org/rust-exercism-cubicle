@@ -154,6 +154,7 @@ macro_rules! test_write {
 }
 
 #[test]
+#[ignore]
 fn test_create_stats() {
     let mut data: Vec<u8> = Vec::new();
     let _ = paasio::ReadStats::new(data.as_slice());

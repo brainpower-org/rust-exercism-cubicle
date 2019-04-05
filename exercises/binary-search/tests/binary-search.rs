@@ -1,6 +1,7 @@
 use binary_search::find;
 
 #[test]
+#[ignore]
 fn finds_a_value_in_an_array_with_one_element() {
     assert_eq!(find(&[6], 6), Some(0));
 }

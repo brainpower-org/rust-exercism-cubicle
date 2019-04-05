@@ -3,6 +3,7 @@ extern crate custom_set as set;
 use set::*;
 
 #[test]
+#[ignore]
 fn sets_with_no_elements_are_empty() {
     let set: CustomSet<()> = CustomSet::new(&[]);
     assert!(set.is_empty());

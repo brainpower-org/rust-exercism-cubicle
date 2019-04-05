@@ -1,6 +1,7 @@
 use protein_translation as proteins;
 
 #[test]
+#[ignore]
 fn test_methionine() {
     let info = proteins::parse(make_pairs());
     assert_eq!(info.name_for("AUG"), Some("methionine"));

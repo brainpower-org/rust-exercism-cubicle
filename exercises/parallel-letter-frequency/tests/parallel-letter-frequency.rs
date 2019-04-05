@@ -39,6 +39,7 @@ const STAR_SPANGLED_BANNER: [&str; 8] = [
 ];
 
 #[test]
+#[ignore]
 fn test_no_texts() {
     assert_eq!(frequency::frequency(&[], 4), HashMap::new());
 }

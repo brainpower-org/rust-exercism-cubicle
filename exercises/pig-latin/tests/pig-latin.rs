@@ -1,6 +1,7 @@
 use pig_latin as pl;
 
 #[test]
+#[ignore]
 fn test_word_beginning_with_a() {
     assert_eq!(pl::translate("apple"), "appleay");
 }

@@ -17,6 +17,7 @@ fn process_nucleotidecounts_case(s: &str, pairs: &[(char, usize)]) {
 }
 
 #[test]
+#[ignore]
 fn count_returns_result() {
     assert!(dna::count('A', "").is_ok());
 }

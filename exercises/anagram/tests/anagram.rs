@@ -12,6 +12,7 @@ fn process_anagram_case(word: &str, inputs: &[&str], expected: &[&str]) {
 }
 
 #[test]
+#[ignore]
 fn test_no_matches() {
     let word = "diaper";
 

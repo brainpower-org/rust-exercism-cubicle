@@ -1,6 +1,7 @@
 use allyourbase as ayb;
 
 #[test]
+#[ignore]
 fn single_bit_one_to_decimal() {
     let input_base = 2;
     let input_digits = &[1];

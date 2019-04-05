@@ -5,6 +5,7 @@ fn some_strings(v: &[&str]) -> Option<Vec<String>> {
 }
 
 #[test]
+#[ignore]
 fn test_grades_for_empty_school() {
     let s = school::School::new();
     assert_eq!(s.grades(), vec![]);

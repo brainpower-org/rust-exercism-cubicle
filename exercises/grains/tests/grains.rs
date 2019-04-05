@@ -5,6 +5,7 @@ fn process_square_case(input: u32, expected: u64) {
 }
 
 #[test]
+#[ignore]
 /// 1
 fn test_1() {
     process_square_case(1, 1);

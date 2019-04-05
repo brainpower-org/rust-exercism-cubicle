@@ -19,6 +19,7 @@ fn test_classification(num: u64, result: Classification) {
 }
 
 #[test]
+#[ignore]
 fn basic() {
     assert_eq!(classify(0), None);
 }

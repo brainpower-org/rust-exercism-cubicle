@@ -5,6 +5,7 @@ fn process_clean_case(number: &str, expected: Option<&str>) {
 }
 
 #[test]
+#[ignore]
 fn test_cleans_the_number() {
     process_clean_case("(223) 456-7890", Some("2234567890"));
 }

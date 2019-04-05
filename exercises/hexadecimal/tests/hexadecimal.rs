@@ -1,6 +1,7 @@
 extern crate hexadecimal;
 
 #[test]
+#[ignore]
 fn test_hex_1_is_decimal_1() {
     assert_eq!(Some(1), hexadecimal::hex_to_int("1"));
 }

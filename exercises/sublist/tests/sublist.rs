@@ -1,6 +1,7 @@
 use sublist::{sublist, Comparison};
 
 #[test]
+#[ignore]
 fn empty_equals_empty() {
     let v: &[u32] = &[];
 

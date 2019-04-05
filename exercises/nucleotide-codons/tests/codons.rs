@@ -1,6 +1,7 @@
 use nucleotide_codons as codons;
 
 #[test]
+#[ignore]
 fn test_methionine() {
     let info = codons::parse(make_pairs());
     assert_eq!(info.name_for("ATG"), Ok("methionine"));

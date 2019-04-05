@@ -1,6 +1,7 @@
 use sieve;
 
 #[test]
+#[ignore]
 fn limit_lower_than_the_first_prime() {
     assert_eq!(sieve::primes_up_to(1), []);
 }

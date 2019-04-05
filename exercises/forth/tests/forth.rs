@@ -1,6 +1,7 @@
 use forth::{Error, Forth, Value};
 
 #[test]
+#[ignore]
 fn no_input_no_stack() {
     assert_eq!(Vec::<Value>::new(), Forth::new().stack());
 }

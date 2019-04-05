@@ -3,6 +3,7 @@
 use rectangles::count;
 
 #[test]
+#[ignore]
 fn test_zero_area_1() {
     let lines = &[];
     assert_eq!(0, count(lines))

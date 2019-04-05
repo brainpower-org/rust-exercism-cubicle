@@ -19,6 +19,7 @@ fn compare_allergy_vectors(expected: &[Allergen], actual: &[Allergen]) {
 }
 
 #[test]
+#[ignore]
 fn is_not_allergic_to_anything() {
     let allergies = Allergies::new(0);
     assert!(!allergies.is_allergic_to(&Allergen::Peanuts));

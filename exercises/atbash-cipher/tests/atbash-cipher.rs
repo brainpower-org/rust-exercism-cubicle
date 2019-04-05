@@ -1,6 +1,7 @@
 use atbash_cipher as cipher;
 
 #[test]
+#[ignore]
 fn test_encode_yes() {
     assert_eq!("bvh", cipher::encode("yes"));
 }

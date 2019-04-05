@@ -1,6 +1,7 @@
 use pascals_triangle::*;
 
 #[test]
+#[ignore]
 fn no_rows() {
     let pt = PascalsTriangle::new(0);
     let expected: Vec<Vec<u32>> = Vec::new();

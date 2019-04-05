@@ -14,6 +14,7 @@ fn process_tripletswithsum_case(sum: u32, expected: &[[u32; 3]]) {
 }
 
 #[test]
+#[ignore]
 fn test_triplets_whose_sum_is_12() {
     process_tripletswithsum_case(12, &[[3, 4, 5]]);
 }

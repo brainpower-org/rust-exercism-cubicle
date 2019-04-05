@@ -10,5 +10,5 @@ jobs:
       - checkout:
           path: /home/rust/repo
       - run:
-          name: Test hello world
-          command: cargo test -p hello-world
+          name: Test
+          command: cargo test

@@ -31,6 +31,7 @@ fn process_decode_case(input: &str, rails: u32, expected: &str) {
 // encode
 
 #[test]
+#[ignore]
 /// encode with two rails
 fn test_encode_with_two_rails() {
     process_encode_case("XOXOXOXOXOXOXOXOXO", 2, "XXXXXXXXXOOOOOOOOO");

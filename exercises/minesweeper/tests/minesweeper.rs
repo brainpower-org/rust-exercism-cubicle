@@ -21,6 +21,7 @@ fn run_test(test_case: &[&str]) {
 }
 
 #[test]
+#[ignore]
 fn no_rows() {
     run_test(&[
     ]);

@@ -10,6 +10,7 @@ fn find_sorted_saddle_points(input: &[Vec<u64>]) -> Vec<(usize, usize)> {
 }
 
 #[test]
+#[ignore]
 fn identify_single_saddle_point() {
     let input = vec![vec![9, 8, 7], vec![5, 3, 2], vec![6, 6, 7]];
     assert_eq!(vec![(1, 0)], find_saddle_points(&input));

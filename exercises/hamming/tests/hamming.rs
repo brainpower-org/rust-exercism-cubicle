@@ -8,6 +8,7 @@ fn process_distance_case(strand_pair: [&str; 2], expected_distance: Option<usize
 }
 
 #[test]
+#[ignore]
 fn test_empty_strands() {
     process_distance_case(["", ""], Some(0));
 }

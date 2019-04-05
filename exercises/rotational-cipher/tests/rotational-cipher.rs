@@ -1,6 +1,7 @@
 use rotational_cipher as cipher;
 
 #[test]
+#[ignore]
 fn rotate_a_1() {
     assert_eq!("b", cipher::rotate("a", 1));
 }

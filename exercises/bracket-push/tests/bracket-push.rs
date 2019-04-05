@@ -1,6 +1,7 @@
 use bracket_push::brackets_are_balanced;
 
 #[test]
+#[ignore]
 fn paired_square_brackets() {
     assert!(brackets_are_balanced("[]"));
 }

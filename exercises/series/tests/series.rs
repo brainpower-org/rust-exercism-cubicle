@@ -1,6 +1,7 @@
 use series::*;
 
 #[test]
+#[ignore]
 fn test_with_zero_length() {
     let expected = vec!["".to_string(); 6];
     assert_eq!(series("92017", 0), expected);

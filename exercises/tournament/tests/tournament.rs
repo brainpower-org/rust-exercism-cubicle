@@ -1,6 +1,7 @@
 use tournament;
 
 #[test]
+#[ignore]
 fn just_the_header_if_no_input() {
     let input = "";
     let expected = "Team                           | MP |  W |  D |  L |  P";

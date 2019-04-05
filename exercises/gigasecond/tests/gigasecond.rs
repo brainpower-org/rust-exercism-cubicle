@@ -3,6 +3,7 @@ use gigasecond;
 use chrono::{TimeZone, Utc};
 
 #[test]
+#[ignore]
 fn test_date() {
     let start_date = Utc.ymd(2011, 4, 25).and_hms(0, 0, 0);
 

@@ -30,6 +30,7 @@ fn process_interval_case(tonic: &str, intervals: &str, expected: &[&str]) {
 // The chromatic scale is considered the default scale
 
 #[test]
+#[ignore]
 /// Chromatic scale with sharps
 fn test_chromatic_scale_with_sharps() {
     process_chromatic_case(

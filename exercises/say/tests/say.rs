@@ -5,6 +5,7 @@ use say;
 // where it is common in British English to use the 'and'.
 
 #[test]
+#[ignore]
 fn test_zero() {
     assert_eq!(say::encode(0), String::from("zero"));
 }

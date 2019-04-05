@@ -1,6 +1,7 @@
 use raindrops;
 
 #[test]
+#[ignore]
 fn test_1() {
     assert_eq!("1", raindrops::raindrops(1));
 }

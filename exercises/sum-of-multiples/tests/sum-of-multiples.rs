@@ -1,6 +1,7 @@
 use sum_of_multiples::*;
 
 #[test]
+#[ignore]
 fn no_multiples_within_limit() {
     assert_eq!(0, sum_of_multiples(1, &[3, 5]))
 }
