@@ -32,7 +32,7 @@ cargo watch -x 'test -p hello-world'
 ## Exercises
 
 - [x] hello-world (core) - 1
-- [ ] leap  - 1
+- [x] leap  - 1
 - [ ] raindrops  - 1
 - [ ] nth-prime  - 1
 - [ ] beer-song  - 1
