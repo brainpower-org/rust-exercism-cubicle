@@ -41,7 +41,6 @@ fn test_10() {
 }
 
 #[test]
-#[ignore]
 fn test_14() {
     assert_eq!("Plong", raindrops::raindrops(14));
 }
