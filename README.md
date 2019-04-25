@@ -35,7 +35,7 @@ cargo watch -x 'test -p hello-world'
 - [x] leap  - 1
 - [x] raindrops  - 1
 - [x] nth-prime  - 1
-- [ ] beer-song  - 1
+- [x] beer-song  - 1
 - [ ] proverb  - 1
 - [ ] difference-of-squares  - 1
 - [ ] sum-of-multiples  - 1
