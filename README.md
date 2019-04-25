@@ -34,7 +34,7 @@ cargo watch -x 'test -p hello-world'
 - [x] hello-world (core) - 1
 - [x] leap  - 1
 - [x] raindrops  - 1
-- [ ] nth-prime  - 1
+- [x] nth-prime  - 1
 - [ ] beer-song  - 1
 - [ ] proverb  - 1
 - [ ] difference-of-squares  - 1

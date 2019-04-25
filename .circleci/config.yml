@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: marionebl/rust-exercism-cubicle
+      - image: brainpower/rust-exercism-cubicle
     environment:
       CARGO_TARGET_DIR: /home/rust/target
     working_directory: /home/rust/repo
