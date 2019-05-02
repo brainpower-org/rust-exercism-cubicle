@@ -89,11 +89,11 @@
 /// ```
 
 pub fn build_proverb(list: &[&str]) -> String {
-    let words = if list.is_empty() {
-        vec![]
-    } else {
-        vec![list[0]]
-    };
+    let words = list
+        .iter()
+        .take(1)
+        .map(|w| *w)
+        .collect::<Vec<&str>>();
     
     list
         .windows(2)
