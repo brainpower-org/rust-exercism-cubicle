@@ -91,5 +91,6 @@ members = [
     "exercises/two-fer",
     "exercises/variable-length-quantity",
     "exercises/word-count",
-    "exercises/wordy"
+    "exercises/wordy",
+    "wasm/crate"
 ]

@@ -1,3 +1,0 @@
-[submodule ".exercism"]
-	path = .exercism
-	url = https://github.com/exercism/rust.git

@@ -6,6 +6,7 @@ services:
     image: brainpower/rust-exercism-cubicle
     ports:
       - '8443:8443'
+      - '8444:8444'
     volumes:
       - ".:/root/project/"
     entrypoint: ["code-server", "--allow-http", "--no-auth", "/root/project"]
