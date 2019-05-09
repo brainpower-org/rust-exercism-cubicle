@@ -37,7 +37,7 @@ cargo watch -x 'test -p hello-world'
 - [x] nth-prime  - 1
 - [x] beer-song  - 1
 - [x] proverb  - 1
-- [ ] difference-of-squares  - 1
+- [x] difference-of-squares  - 1
 - [ ] sum-of-multiples  - 1
 - [ ] grains  - 1
 - [ ] prime-factors  - 1
