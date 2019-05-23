@@ -10,7 +10,11 @@ services:
       - seccomp:unconfined
       - apparmor:unconfined
     ports:
-      - '8443:8443'
+      - "8443:8443"
     volumes:
       - ".:/root/project/"
-    entrypoint: ["code-server", "--allow-http", "--no-auth", "/root/project"]
+      - "$SSH_AUTH_SOCK:/ssh-agent"
+    environment:
+      SSH_AUTH_SOCK: "/ssh-agent"
+    working_dir: "/root/project"
+    entrypoint: ["code-server", "--allow-http", "--no-auth"]
