@@ -7,7 +7,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'accumulate'",
+            "name": "accumulate - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -26,7 +26,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'accumulate'",
+            "name": "accumulate - int",
             "cargo": {
                 "args": [
                     "test",
@@ -45,7 +45,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'acronym'",
+            "name": "acronym - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -64,7 +64,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'acronym'",
+            "name": "acronym - int",
             "cargo": {
                 "args": [
                     "test",
@@ -83,7 +83,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'allyourbase'",
+            "name": "allyourbase - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -102,7 +102,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'all-your-base'",
+            "name": "all-your-base - int",
             "cargo": {
                 "args": [
                     "test",
@@ -121,7 +121,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'allergies'",
+            "name": "allergies - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -140,7 +140,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'allergies'",
+            "name": "allergies - int",
             "cargo": {
                 "args": [
                     "test",
@@ -159,7 +159,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'alphametics'",
+            "name": "alphametics - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -178,7 +178,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'alphametics'",
+            "name": "alphametics - int",
             "cargo": {
                 "args": [
                     "test",
@@ -197,7 +197,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'anagram'",
+            "name": "anagram - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -216,7 +216,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'anagram'",
+            "name": "anagram - int",
             "cargo": {
                 "args": [
                     "test",
@@ -235,7 +235,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'armstrong_numbers'",
+            "name": "armstrong_numbers - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -254,7 +254,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'armstrong-numbers'",
+            "name": "armstrong-numbers - int",
             "cargo": {
                 "args": [
                     "test",
@@ -273,7 +273,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'atbash-cipher'",
+            "name": "atbash-cipher - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -292,7 +292,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'atbash-cipher'",
+            "name": "atbash-cipher - int",
             "cargo": {
                 "args": [
                     "test",
@@ -311,7 +311,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'beer-song'",
+            "name": "beer-song - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -330,7 +330,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'beer-song'",
+            "name": "beer-song - int",
             "cargo": {
                 "args": [
                     "test",
@@ -349,7 +349,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'binary-search'",
+            "name": "binary-search - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -368,7 +368,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'binary-search'",
+            "name": "binary-search - int",
             "cargo": {
                 "args": [
                     "test",
@@ -387,7 +387,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'bob'",
+            "name": "bob - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -406,7 +406,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'bob'",
+            "name": "bob - int",
             "cargo": {
                 "args": [
                     "test",
@@ -425,7 +425,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'book_store'",
+            "name": "book_store - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -444,7 +444,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'book-store'",
+            "name": "book-store - int",
             "cargo": {
                 "args": [
                     "test",
@@ -463,7 +463,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'bowling'",
+            "name": "bowling - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -482,7 +482,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'bowling'",
+            "name": "bowling - int",
             "cargo": {
                 "args": [
                     "test",
@@ -501,7 +501,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'bracket-push'",
+            "name": "bracket-push - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -520,7 +520,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'bracket-push'",
+            "name": "bracket-push - int",
             "cargo": {
                 "args": [
                     "test",
@@ -539,7 +539,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'circular-buffer'",
+            "name": "circular-buffer - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -558,7 +558,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'circular-buffer'",
+            "name": "circular-buffer - int",
             "cargo": {
                 "args": [
                     "test",
@@ -577,7 +577,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'clock'",
+            "name": "clock - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -596,7 +596,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'clock'",
+            "name": "clock - int",
             "cargo": {
                 "args": [
                     "test",
@@ -615,7 +615,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'collatz_conjecture'",
+            "name": "collatz_conjecture - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -634,7 +634,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'collatz-conjecture'",
+            "name": "collatz-conjecture - int",
             "cargo": {
                 "args": [
                     "test",
@@ -653,7 +653,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'crypto-square'",
+            "name": "crypto-square - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -672,7 +672,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'crypto-square'",
+            "name": "crypto-square - int",
             "cargo": {
                 "args": [
                     "test",
@@ -691,7 +691,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'custom-set'",
+            "name": "custom-set - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -710,7 +710,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'custom-set'",
+            "name": "custom-set - int",
             "cargo": {
                 "args": [
                     "test",
@@ -729,7 +729,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'decimal'",
+            "name": "decimal - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -748,7 +748,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'decimal'",
+            "name": "decimal - int",
             "cargo": {
                 "args": [
                     "test",
@@ -767,7 +767,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'diamond'",
+            "name": "diamond - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -786,7 +786,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'diamond'",
+            "name": "diamond - int",
             "cargo": {
                 "args": [
                     "test",
@@ -805,7 +805,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'difference-of-squares'",
+            "name": "difference-of-squares - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -824,7 +824,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'difference-of-squares'",
+            "name": "difference-of-squares - int",
             "cargo": {
                 "args": [
                     "test",
@@ -843,7 +843,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'diffie-hellman'",
+            "name": "diffie-hellman - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -862,7 +862,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'diffie-hellman'",
+            "name": "diffie-hellman - int",
             "cargo": {
                 "args": [
                     "test",
@@ -881,7 +881,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'dominoes'",
+            "name": "dominoes - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -900,7 +900,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'dominoes'",
+            "name": "dominoes - int",
             "cargo": {
                 "args": [
                     "test",
@@ -919,7 +919,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'dot-dsl'",
+            "name": "dot-dsl - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -938,7 +938,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'dot-dsl'",
+            "name": "dot-dsl - int",
             "cargo": {
                 "args": [
                     "test",
@@ -957,7 +957,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'etl'",
+            "name": "etl - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -976,7 +976,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'etl'",
+            "name": "etl - int",
             "cargo": {
                 "args": [
                     "test",
@@ -995,7 +995,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'forth'",
+            "name": "forth - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1014,7 +1014,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'forth'",
+            "name": "forth - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1033,7 +1033,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'gigasecond'",
+            "name": "gigasecond - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1052,7 +1052,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'gigasecond'",
+            "name": "gigasecond - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1071,7 +1071,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'grade-school'",
+            "name": "grade-school - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1090,7 +1090,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'grade-school'",
+            "name": "grade-school - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1109,7 +1109,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'grains'",
+            "name": "grains - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1128,7 +1128,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'grains'",
+            "name": "grains - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1147,7 +1147,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'grep'",
+            "name": "grep - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1166,7 +1166,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'grep'",
+            "name": "grep - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1185,7 +1185,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'hamming'",
+            "name": "hamming - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1204,7 +1204,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'hamming'",
+            "name": "hamming - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1223,7 +1223,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'hello-world'",
+            "name": "hello-world - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1242,7 +1242,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'hello-world'",
+            "name": "hello-world - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1261,7 +1261,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'hexadecimal'",
+            "name": "hexadecimal - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1280,7 +1280,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'hexadecimal'",
+            "name": "hexadecimal - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1299,7 +1299,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'isbn-verifier'",
+            "name": "isbn-verifier - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1318,7 +1318,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'isbn-verifier'",
+            "name": "isbn-verifier - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1337,7 +1337,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'isogram'",
+            "name": "isogram - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1356,7 +1356,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'isogram'",
+            "name": "isogram - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1375,7 +1375,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'largest-series-product'",
+            "name": "largest-series-product - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1394,7 +1394,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'largest-series-product'",
+            "name": "largest-series-product - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1413,7 +1413,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'leap'",
+            "name": "leap - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1432,7 +1432,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'leap'",
+            "name": "leap - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1451,7 +1451,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'luhn'",
+            "name": "luhn - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1470,7 +1470,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'luhn'",
+            "name": "luhn - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1489,7 +1489,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'luhn-from'",
+            "name": "luhn-from - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1508,7 +1508,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'luhn-from'",
+            "name": "luhn-from - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1527,7 +1527,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'luhn-trait'",
+            "name": "luhn-trait - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1546,7 +1546,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'luhn-trait'",
+            "name": "luhn-trait - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1565,7 +1565,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'macros'",
+            "name": "macros - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1584,7 +1584,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'macros'",
+            "name": "macros - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1603,7 +1603,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'minesweeper'",
+            "name": "minesweeper - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1622,7 +1622,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'minesweeper'",
+            "name": "minesweeper - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1641,7 +1641,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'nth_prime'",
+            "name": "nth_prime - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1660,7 +1660,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'nth-prime'",
+            "name": "nth-prime - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1679,7 +1679,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'nucleotide_codons'",
+            "name": "nucleotide_codons - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1698,7 +1698,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'codons'",
+            "name": "codons - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1717,7 +1717,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'nucleotide-count'",
+            "name": "nucleotide-count - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1736,7 +1736,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'nucleotide-count'",
+            "name": "nucleotide-count - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1755,7 +1755,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'ocr-numbers'",
+            "name": "ocr-numbers - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1774,7 +1774,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'ocr-numbers'",
+            "name": "ocr-numbers - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1793,7 +1793,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'paasio'",
+            "name": "paasio - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1812,7 +1812,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'paasio'",
+            "name": "paasio - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1831,7 +1831,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'palindrome-products'",
+            "name": "palindrome-products - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1850,7 +1850,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'palindrome-products'",
+            "name": "palindrome-products - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1869,7 +1869,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'pangram'",
+            "name": "pangram - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1888,7 +1888,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'pangram'",
+            "name": "pangram - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1907,7 +1907,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'parallel-letter-frequency'",
+            "name": "parallel-letter-frequency - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1926,7 +1926,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'parallel-letter-frequency'",
+            "name": "parallel-letter-frequency - int",
             "cargo": {
                 "args": [
                     "test",
@@ -1964,7 +1964,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'pascals-triangle'",
+            "name": "pascals-triangle - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -1983,7 +1983,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'pascals-triangle'",
+            "name": "pascals-triangle - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2002,7 +2002,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'perfect_numbers'",
+            "name": "perfect_numbers - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2021,7 +2021,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'perfect-numbers'",
+            "name": "perfect-numbers - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2040,7 +2040,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'phone-number'",
+            "name": "phone-number - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2059,7 +2059,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'phone-number'",
+            "name": "phone-number - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2078,7 +2078,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'pig-latin'",
+            "name": "pig-latin - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2097,7 +2097,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'pig-latin'",
+            "name": "pig-latin - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2116,7 +2116,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'poker'",
+            "name": "poker - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2135,7 +2135,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'poker'",
+            "name": "poker - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2154,7 +2154,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'prime_factors'",
+            "name": "prime_factors - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2173,7 +2173,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'prime-factors'",
+            "name": "prime-factors - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2192,7 +2192,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'protein-translation'",
+            "name": "protein-translation - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2211,7 +2211,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'proteins'",
+            "name": "proteins - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2230,7 +2230,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'proverb'",
+            "name": "proverb - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2249,7 +2249,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'proverb'",
+            "name": "proverb - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2268,7 +2268,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'pythagorean_triplet'",
+            "name": "pythagorean_triplet - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2287,7 +2287,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'pythagorean-triplet'",
+            "name": "pythagorean-triplet - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2306,7 +2306,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'queen-attack'",
+            "name": "queen-attack - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2325,7 +2325,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'queen-attack'",
+            "name": "queen-attack - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2344,7 +2344,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'rail_fence_cipher'",
+            "name": "rail_fence_cipher - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2363,7 +2363,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'rail-fence-cipher'",
+            "name": "rail-fence-cipher - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2382,7 +2382,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'raindrops'",
+            "name": "raindrops - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2401,7 +2401,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'raindrops'",
+            "name": "raindrops - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2420,7 +2420,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'react'",
+            "name": "react - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2439,7 +2439,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'react'",
+            "name": "react - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2458,7 +2458,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'rectangles'",
+            "name": "rectangles - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2477,7 +2477,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'rectangles'",
+            "name": "rectangles - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2496,7 +2496,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'reverse_string'",
+            "name": "reverse_string - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2515,7 +2515,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'reverse-string'",
+            "name": "reverse-string - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2534,7 +2534,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'rna-transcription'",
+            "name": "rna-transcription - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2553,7 +2553,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'rna-transcription'",
+            "name": "rna-transcription - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2572,7 +2572,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'robot-name'",
+            "name": "robot-name - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2591,7 +2591,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'robot-name'",
+            "name": "robot-name - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2610,7 +2610,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'robot-simulator'",
+            "name": "robot-simulator - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2629,7 +2629,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'robot-simulator'",
+            "name": "robot-simulator - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2648,7 +2648,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'roman-numerals'",
+            "name": "roman-numerals - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2667,7 +2667,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'roman-numerals'",
+            "name": "roman-numerals - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2686,7 +2686,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'rotational-cipher'",
+            "name": "rotational-cipher - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2705,7 +2705,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'rotational-cipher'",
+            "name": "rotational-cipher - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2724,7 +2724,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'run-length-encoding'",
+            "name": "run-length-encoding - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2743,7 +2743,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'run-length-encoding'",
+            "name": "run-length-encoding - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2762,7 +2762,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'saddle-points'",
+            "name": "saddle-points - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2781,7 +2781,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'saddle-points'",
+            "name": "saddle-points - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2800,7 +2800,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'say'",
+            "name": "say - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2819,7 +2819,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'say'",
+            "name": "say - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2838,7 +2838,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'scale_generator'",
+            "name": "scale_generator - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2857,7 +2857,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'scale-generator'",
+            "name": "scale-generator - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2876,7 +2876,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'scrabble-score'",
+            "name": "scrabble-score - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2895,7 +2895,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'scrabble-score'",
+            "name": "scrabble-score - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2914,7 +2914,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'series'",
+            "name": "series - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2933,7 +2933,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'series'",
+            "name": "series - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2952,7 +2952,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'sieve'",
+            "name": "sieve - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -2971,7 +2971,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'sieve'",
+            "name": "sieve - int",
             "cargo": {
                 "args": [
                     "test",
@@ -2990,7 +2990,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'simple-cipher'",
+            "name": "simple-cipher - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -3009,7 +3009,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'simple-cipher'",
+            "name": "simple-cipher - int",
             "cargo": {
                 "args": [
                     "test",
@@ -3028,7 +3028,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'simple_linked_list'",
+            "name": "simple_linked_list - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -3047,7 +3047,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'simple-linked-list'",
+            "name": "simple-linked-list - int",
             "cargo": {
                 "args": [
                     "test",
@@ -3066,7 +3066,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'space-age'",
+            "name": "space-age - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -3085,7 +3085,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'space-age'",
+            "name": "space-age - int",
             "cargo": {
                 "args": [
                     "test",
@@ -3104,7 +3104,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'spiral-matrix'",
+            "name": "spiral-matrix - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -3123,7 +3123,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'spiral-matrix'",
+            "name": "spiral-matrix - int",
             "cargo": {
                 "args": [
                     "test",
@@ -3142,7 +3142,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'sublist'",
+            "name": "sublist - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -3161,7 +3161,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'sublist'",
+            "name": "sublist - int",
             "cargo": {
                 "args": [
                     "test",
@@ -3180,7 +3180,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'sum-of-multiples'",
+            "name": "sum-of-multiples - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -3199,7 +3199,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'sum-of-multiples'",
+            "name": "sum-of-multiples - int",
             "cargo": {
                 "args": [
                     "test",
@@ -3218,7 +3218,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'tournament'",
+            "name": "tournament - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -3237,7 +3237,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'tournament'",
+            "name": "tournament - int",
             "cargo": {
                 "args": [
                     "test",
@@ -3256,7 +3256,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'triangle'",
+            "name": "triangle - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -3275,7 +3275,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'triangle'",
+            "name": "triangle - int",
             "cargo": {
                 "args": [
                     "test",
@@ -3294,7 +3294,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'two-bucket'",
+            "name": "two-bucket - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -3313,7 +3313,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'two-bucket'",
+            "name": "two-bucket - int",
             "cargo": {
                 "args": [
                     "test",
@@ -3332,7 +3332,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'twofer'",
+            "name": "twofer - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -3351,7 +3351,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'two-fer'",
+            "name": "two-fer - int",
             "cargo": {
                 "args": [
                     "test",
@@ -3370,7 +3370,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'variable-length-quantity'",
+            "name": "variable-length-quantity - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -3389,7 +3389,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'variable-length-quantity'",
+            "name": "variable-length-quantity - int",
             "cargo": {
                 "args": [
                     "test",
@@ -3408,7 +3408,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'word-count'",
+            "name": "word-count - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -3427,7 +3427,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'word-count'",
+            "name": "word-count - int",
             "cargo": {
                 "args": [
                     "test",
@@ -3446,7 +3446,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in library 'wordy'",
+            "name": "wordy - unit",
             "cargo": {
                 "args": [
                     "test",
@@ -3465,7 +3465,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug integration test 'wordy'",
+            "name": "wordy - int",
             "cargo": {
                 "args": [
                     "test",
