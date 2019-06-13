@@ -41,7 +41,7 @@ cargo watch -x 'test -p hello-world'
 - [x] sum-of-multiples  - 1
 - [x] grains  - 1
 - [x] prime-factors  - 1
-- [ ] armstrong-numbers  - 1
+- [x] armstrong-numbers  - 1
 - [ ] reverse-string (core) - 1
 - [ ] gigasecond (core) - 1
 - [ ] bob (core) - 1
