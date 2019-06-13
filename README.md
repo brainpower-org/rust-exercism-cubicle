@@ -38,9 +38,9 @@ cargo watch -x 'test -p hello-world'
 - [x] beer-song  - 1
 - [x] proverb  - 1
 - [x] difference-of-squares  - 1
-- [ ] sum-of-multiples  - 1
-- [ ] grains  - 1
-- [ ] prime-factors  - 1
+- [x] sum-of-multiples  - 1
+- [x] grains  - 1
+- [x] prime-factors  - 1
 - [ ] armstrong-numbers  - 1
 - [ ] reverse-string (core) - 1
 - [ ] gigasecond (core) - 1
