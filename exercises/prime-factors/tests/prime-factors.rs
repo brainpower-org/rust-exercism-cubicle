@@ -34,3 +34,10 @@ fn test_product_of_primes() {
 fn test_factors_include_large_prime() {
     assert_eq!(factors(93819012551), vec![11, 9539, 894119]);
 }
+
+#[test]
+fn test_leaves_input_alone() {
+    let input = 9;
+    factors(input);
+    assert_eq!(input, 9);
+}
