@@ -4,6 +4,10 @@ fn process_response_case(phrase: &str, expected_response: &str) {
     assert_eq!(bob::reply(phrase), expected_response);
 }
 
+fn process_response_case_imperative(phrase: &str, expected_response: &str) {
+    assert_eq!(bob::reply_imperative(phrase), expected_response);
+}
+
 #[test]
 fn test_stating_something() {
     process_response_case("Tom-ay-to, tom-aaaah-to.", "Whatever.");
@@ -139,4 +143,50 @@ fn test_nonquestion_ending_with_whitespace() {
         "This is a statement ending with whitespace      ",
         "Whatever.",
     );
+}
+
+#[test]
+fn test_shouting_imperative() {
+    process_response_case_imperative("WATCH OUT!", "Whoa, chill out!");
+}
+
+#[test]
+fn test_shouting_gibberish_imperative() {
+    process_response_case_imperative("FCECDFCAAB", "Whoa, chill out!");
+}
+
+#[test]
+fn test_talking_forcefully_imperative() {
+    process_response_case_imperative("Let's go make out behind the gym!", "Whatever.");
+}
+
+#[test]
+fn test_using_acronyms_in_regular_speech_imperative() {
+    process_response_case_imperative("It's OK if you don't want to go to the DMV.", "Whatever.");
+}
+
+#[test]
+fn test_forceful_question_imperative() {
+    process_response_case_imperative(
+        "WHAT THE HELL WERE YOU THINKING?",
+        "Calm down, I know what I'm doing!",
+    );
+}
+
+#[test]
+fn test_shouting_numbers_imperative() {
+    process_response_case_imperative("1, 2, 3 GO!", "Whoa, chill out!");
+}
+
+#[test]
+fn test_shouting_with_special_characters_imperative() {
+    process_response_case_imperative(
+        "ZOMG THE %^*@#$(*^ ZOMBIES ARE COMING!!11!!1!",
+        "Whoa, chill out!",
+    );
+}
+
+#[test]
+fn test_shouting_with_no_exclamation_mark_imperative() {
+    process_response_case_imperative("I HATE THE DMV", "Whoa, chill out!");
 }
