@@ -1,0 +1,16 @@
+{
+    "name": "rust-exercism-dev",
+    "dockerComposeFile": ["../docker-compose.yml"],
+    "service": "exercism",
+    "workspaceFolder": "/repo",
+    "shutdownAction": "stopCompose",
+    "extensions": [
+        "hackwaly.ocaml-debugger",
+        "editorconfig.editorconfig",
+        "ms-vsliveshare.vsliveshare-pack",
+        "ms-azuretools.vscode-docker",
+        "rust-lang.rust",
+        "serayuzgur.crates",
+        "bungcip.better-toml"
+    ]
+}
