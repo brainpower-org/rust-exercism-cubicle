@@ -1,3 +1,6 @@
+use std::iter::FromIterator;
+use std::convert::TryFrom;
+
 #[derive(Eq, PartialEq)]
 pub enum Bracket {
     Round,
@@ -11,11 +14,10 @@ pub enum BracketType {
 }
 
 pub fn brackets_are_balanced(string: &str) -> bool {
-    string.chars()
-        .filter_map(to_bracket)
+    string.chars().collect::<BracketList>().0.into_iter()
         .fold(Ok(vec![]), |stack, b| stack.and_then(|s| process(b, s)))
         .ok()
-        .map_or(false, |s| s.is_empty())
+       .map_or(false, |s| s.is_empty())
 }
 
 pub fn process(b: BracketType, mut s: Vec<Bracket>) -> Result<Vec<Bracket>, Vec<Bracket>> {
@@ -47,5 +49,31 @@ pub fn get_closing(c: char) -> Option<char> {
         '(' => Some(')'),
         '{' => Some('}'),
         _ => None
+    }
+}
+
+
+impl TryFrom<char> for BracketType {
+    type Error = &'static str;
+
+    fn try_from(c: char) -> Result<Self, Self::Error> {
+       to_bracket(c).ok_or("No Bracket")
+    }
+}
+
+struct BracketList(Vec<BracketType>);
+
+
+impl FromIterator<char> for BracketList {
+    
+
+    fn from_iter<I: IntoIterator<Item=char>>(iter: I) -> Self {
+        let mut result = vec![];
+        for i in iter {
+            if let Ok(r) = BracketType::try_from(i) {
+                result.push(r);
+            }
+        }
+        BracketList(result)
     }
 }
