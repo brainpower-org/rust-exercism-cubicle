@@ -45,7 +45,7 @@ cargo watch -x 'test -p hello-world'
 - [x] reverse-string (core) - 1
 - [x] gigasecond (core) - 1
 - [x] bob (core) - 1
-- [ ] bracket-push  - 1
+- [x] bracket-push  - 1
 - [ ] clock (core) - 4
 - [ ] dot-dsl  - 4
 - [ ] simple-linked-list  - 4
