@@ -13,7 +13,7 @@ services:
       - "8443:8443"
     volumes:
       - ".:/repo/"
-      - "$SSH_AUTH_SOCK:/ssh-agent"
+        #      - "$SSH_AUTH_SOCK:/ssh-agent"
     environment:
       SSH_AUTH_SOCK: "/ssh-agent"
     working_dir: "/repo"
