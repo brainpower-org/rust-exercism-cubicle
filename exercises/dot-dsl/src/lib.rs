@@ -2,43 +2,69 @@
 extern crate maplit;
 
 pub mod graph {
+    use std::collections::HashMap;
     pub type Attribute<'a> = (&'a str, &'a str);
 
     pub mod graph_items {
         pub mod edge {
+
+            use super::super::Attribute;
+            use std::collections::HashMap;
+
             #[derive(PartialEq, Debug, Clone)]
             pub struct Edge<'a> {
+                pub attrs: HashMap<String, String>,
                 from: &'a str,
                 to: &'a str,
             }
 
             impl<'a> Edge<'a> {
                 pub fn new(from: &'a str, to: &'a str) -> Self {
-                    Edge { from, to }
+                    Edge {
+                        from,
+                        to,
+                        attrs: hashmap! {},
+                    }
+                }
+
+                pub fn with_attrs(mut self, attrs: &[Attribute]) -> Self {
+                    self.attrs = attrs
+                        .iter()
+                        .map(|(key, value)| (key.to_string(), value.to_string()))
+                        .collect();
+                    self
                 }
             }
         }
 
         pub mod node {
             use super::super::Attribute;
+            use std::collections::HashMap;
 
             #[derive(PartialEq, Debug, Clone)]
             pub struct Node<'a> {
-                pub attrs: Vec<Attribute<'a>>,
+                pub name: String,
+                pub attrs: HashMap<String, &'a str>,
             }
 
             impl<'a> Node<'a> {
                 pub fn new(name: &str) -> Self {
-                    // TODO store name
                     Node {
-                        // TODO maybe store as hashmap
-                        attrs: vec![],
+                        attrs: hashmap! {},
+                        name: String::from(name),
                     }
                 }
 
-                pub fn with_attrs(mut self, attrs: &[(&'a str, &'a str)]) -> Self {
-                    self.attrs = attrs.to_vec();
+                pub fn with_attrs(mut self, attrs: &[Attribute<'a>]) -> Self {
+                    self.attrs = attrs
+                        .iter()
+                        .map(|(key, value)| (key.to_string(), *value))
+                        .collect();
                     self
+                }
+
+                pub fn get_attr(self, key: &str) -> Option<&'a str> {
+                    self.attrs.get(&String::from(key)).map(|value| value.clone())
                 }
             }
         }
@@ -46,7 +72,6 @@ pub mod graph {
 
     use graph_items::edge::Edge;
     use graph_items::node::Node;
-    use std::collections::HashMap;
 
     pub struct Graph<'a> {
         pub nodes: Vec<Node<'a>>,
@@ -79,6 +104,12 @@ pub mod graph {
                 .map(|(key, value)| (key.to_string(), value.to_string()))
                 .collect();
             self
+        }
+
+        pub fn get_node(self, name: &str) -> Option<Node<'a>> {
+            self.nodes
+                .into_iter()
+                .find(|node| node.name == String::from(name))
         }
     }
 }
