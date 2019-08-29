@@ -5,15 +5,24 @@ pub mod graph {
     use std::collections::HashMap;
     pub type Attribute<'a> = (&'a str, &'a str);
 
+pub trait WithAttribute<'a>: std::marker::Sized {
+    fn set_attrs(self, attrs: HashMap<String, &'a str>) -> Self;
+                
+    fn with_attrs(self, attrs: &[Attribute<'a>]) -> Self {
+        self.set_attrs(attrs.iter()
+            .map(|(key, value)| (key.to_string(), *value))
+            .collect())
+    }
+}
     pub mod graph_items {
         pub mod edge {
 
-            use super::super::Attribute;
+            use super::super::WithAttribute;
             use std::collections::HashMap;
 
             #[derive(PartialEq, Debug, Clone)]
             pub struct Edge<'a> {
-                pub attrs: HashMap<String, String>,
+                pub attrs: HashMap<String, &'a str>,
                 from: &'a str,
                 to: &'a str,
             }
@@ -26,19 +35,18 @@ pub mod graph {
                         attrs: hashmap! {},
                     }
                 }
+            }
 
-                pub fn with_attrs(mut self, attrs: &[Attribute]) -> Self {
-                    self.attrs = attrs
-                        .iter()
-                        .map(|(key, value)| (key.to_string(), value.to_string()))
-                        .collect();
-                    self
+            impl<'a> WithAttribute<'a> for Edge<'a> {
+                fn set_attrs(mut self, attrs: HashMap<String, &'a str>) -> Self {
+                  self.attrs = attrs;
+                  self  
                 }
             }
         }
 
         pub mod node {
-            use super::super::Attribute;
+            use super::super::WithAttribute;
             use std::collections::HashMap;
 
             #[derive(PartialEq, Debug, Clone)]
@@ -47,20 +55,19 @@ pub mod graph {
                 pub attrs: HashMap<String, &'a str>,
             }
 
+            impl<'a> WithAttribute<'a> for Node<'a> {
+                fn set_attrs(mut self, attrs: HashMap<String, &'a str>) -> Self {
+                  self.attrs = attrs;
+                  self  
+                }
+            }
+
             impl<'a> Node<'a> {
                 pub fn new(name: &str) -> Self {
                     Node {
                         attrs: hashmap! {},
                         name: String::from(name),
                     }
-                }
-
-                pub fn with_attrs(mut self, attrs: &[Attribute<'a>]) -> Self {
-                    self.attrs = attrs
-                        .iter()
-                        .map(|(key, value)| (key.to_string(), *value))
-                        .collect();
-                    self
                 }
 
                 pub fn get_attr(self, key: &str) -> Option<&'a str> {
