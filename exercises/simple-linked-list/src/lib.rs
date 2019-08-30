@@ -1,24 +1,45 @@
+#[derive(Clone)]
+pub struct Node<T> {
+    data: T,
+    next: Option<Box<Node<T>>>,
+}
+
 pub struct SimpleLinkedList<T> {
-    // Delete this field
-    // dummy is needed to avoid unused parameter error during compilation
-    dummy: ::std::marker::PhantomData<T>,
+    pub head: Option<Box<Node<T>>>,
+    size: usize,
 }
 
 impl<T> SimpleLinkedList<T> {
     pub fn new() -> Self {
-        unimplemented!()
+        SimpleLinkedList {
+            head: None,
+            size: 0,
+        }
     }
 
     pub fn len(&self) -> usize {
-        unimplemented!()
+        self.size
     }
 
     pub fn push(&mut self, _element: T) {
-        unimplemented!()
+        let node = Node {
+            data: _element,
+            next: self.head.take(),
+        };
+        self.head = Some(Box::new(node));
+        self.size += 1;
     }
 
     pub fn pop(&mut self) -> Option<T> {
-        unimplemented!()
+        let temp = self.head.take();
+        match temp {
+            Some(val) => {
+                self.head = val.next;
+                self.size -= 1;
+                Some(val.data)
+            }
+            None => None,
+        }
     }
 
     pub fn peek(&self) -> Option<&T> {
