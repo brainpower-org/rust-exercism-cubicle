@@ -31,36 +31,43 @@ impl<T> SimpleLinkedList<T> {
     }
 
     pub fn pop(&mut self) -> Option<T> {
-        let temp = self.head.take();
-        match temp {
-            Some(val) => {
-                self.head = val.next;
-                self.size -= 1;
-                Some(val.data)
-            }
-            None => None,
-        }
+        self.head.take().map(|val| {
+            self.head = val.next;
+            self.size -= 1;
+            val.data
+        })
     }
 
     pub fn peek(&self) -> Option<&T> {
-        unimplemented!()
+        self.head.as_ref().map(|node| &node.data)
     }
 }
 
 impl<T: Clone> SimpleLinkedList<T> {
-    pub fn rev(&self) -> SimpleLinkedList<T> {
-        unimplemented!()
+    pub fn rev(&mut self) -> SimpleLinkedList<T> {
+        let mut acc = SimpleLinkedList::new();
+        while let Some(i) = self.pop() {
+            acc.push(i)
+        }
+        acc
     }
 }
 
 impl<'a, T: Clone> From<&'a [T]> for SimpleLinkedList<T> {
-    fn from(_item: &[T]) -> Self {
-        unimplemented!()
+    fn from(items: &[T]) -> Self {
+        let mut list = SimpleLinkedList::new();
+        items.iter().for_each(|item: &T| list.push(item.clone()));
+        list
     }
 }
 
 impl<T> Into<Vec<T>> for SimpleLinkedList<T> {
-    fn into(self) -> Vec<T> {
-        unimplemented!()
+    fn into(mut self) -> Vec<T> {
+        let mut acc = vec![];
+        while let Some(i) = self.pop() {
+            acc.push(i)
+        }
+        acc.reverse();
+        acc
     }
 }
