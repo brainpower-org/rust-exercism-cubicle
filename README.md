@@ -49,7 +49,7 @@ cargo watch -x 'test -p hello-world'
 - [x] clock (core) - 4
 - [x] dot-dsl  - 4
 - [x] simple-linked-list  - 4
-- [ ] pascals-triangle  - 4
+- [x] pascals-triangle  - 4
 - [ ] paasio  - 4
 - [ ] nucleotide-count  - 4
 - [ ] etl  - 4
