@@ -169,25 +169,24 @@ test_write!(write_string (
     |d: &[u8]| d.len()
 ));
 
-test_read!(#[ignore]
+test_read!(
 read_byte_literal(
     &[1_u8, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144][..],
     |d: &[u8]| d.len()
 ));
-test_write!(#[ignore]
+test_write!(
 write_byte_literal(
     &[2_u8, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61,][..],
     |d: &[u8]| d.len()
 ));
 
-test_read!(#[ignore]
+test_read!(
 read_file(
     ::std::fs::File::open("README.md").expect("readme must be present"),
     |f: &::std::fs::File| f.metadata().expect("metadata must be present").len() as usize
 ));
 
 #[test]
-#[ignore]
 fn read_stats_by_ref_returns_wrapped_reader() {
     use paasio::ReadStats;
 
