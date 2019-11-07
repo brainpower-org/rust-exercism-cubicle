@@ -20,8 +20,23 @@ pub fn count(nucleotide: char, dna: &str) -> Result<usize, char> {
 }
 
 pub fn nucleotide_counts(dna: &str) -> Result<HashMap<char, usize>, char> {
-    unimplemented!(
-        "How much of every nucleotide type is contained inside DNA string '{}'?",
-        dna
-    );
+    let dna_strand = String::from_str(dna).unwrap();
+    let mut initial = HashMap::new();
+    BASES.iter().for_each(|n| { initial.insert(*n, 0);});
+    let nuc_count = dna_strand.chars().fold(Ok(initial), |acc, nuc| { 
+        match acc {
+            Err(_) => acc,
+            Ok(mut inner) => {
+                if  BASES.contains(&nuc) {
+                    let counter = inner.entry(nuc).or_insert(0);
+                    *counter +=1;   
+                    return Ok(inner);
+                } else {
+                    return Err(nuc);
+                }
+            }
+        }
+    });
+    nuc_count
 }
+

@@ -51,7 +51,7 @@ cargo watch -x 'test -p hello-world'
 - [x] simple-linked-list  - 4
 - [x] pascals-triangle  - 4
 - [x] paasio  - 4
-- [ ] nucleotide-count  - 4
+- [x] nucleotide-count  - 4
 - [ ] etl  - 4
 - [ ] acronym  - 4
 - [ ] sieve  - 4
