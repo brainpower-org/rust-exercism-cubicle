@@ -53,8 +53,8 @@ cargo watch -x 'test -p hello-world'
 - [x] paasio  - 4
 - [x] nucleotide-count  - 4
 - [x] etl  - 4
-- [ ] acronym  - 4
-- [ ] sieve  - 4
+- [x] acronym  - 4
+- [x] sieve  - 4
 - [ ] rna-transcription  - 4
 - [ ] triangle  - 4
 - [ ] grade-school  - 4
