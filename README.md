@@ -56,7 +56,7 @@ cargo watch -x 'test -p hello-world'
 - [x] acronym  - 4
 - [x] sieve  - 4
 - [x] rna-transcription  - 4
-- [ ] triangle  - 4
+- [x] triangle  - 4
 - [ ] grade-school  - 4
 - [ ] binary-search  - 4
 - [ ] robot-simulator  - 7
