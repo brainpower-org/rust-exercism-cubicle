@@ -1,16 +1,29 @@
-pub struct School {}
+use std::collections::HashMap;
+
+pub struct School {
+    grades: HashMap<u32, Vec<String>>,
+}
 
 impl School {
     pub fn new() -> School {
-        unimplemented!()
+        School {
+            grades: HashMap::new(),
+        }
     }
 
     pub fn add(&mut self, grade: u32, student: &str) {
-        unimplemented!("Add {} to the roster for {}", student, grade)
+        self.grades
+            .entry(grade)
+            .or_insert(Vec::new())
+            .push(String::from(student))
+            
     }
 
     pub fn grades(&self) -> Vec<u32> {
-        unimplemented!()
+        let mut grades = self.grades.keys().map(|n| *n).collect::<Vec<u32>>();
+        grades.sort();
+
+        grades
     }
 
     // If grade returned an `Option<&Vec<String>>`,
@@ -18,6 +31,13 @@ impl School {
     // By returning an owned vector instead,
     // the internal implementation is free to use whatever it chooses.
     pub fn grade(&self, grade: u32) -> Option<Vec<String>> {
-        unimplemented!("Return the list of students in {}", grade)
+        match self.grades.get(&grade) {
+            Some(x) => {
+                let  mut sorted = x.clone();
+                sorted.sort();
+                Some(sorted)
+            },
+            None => None
+        }
     }
 }
