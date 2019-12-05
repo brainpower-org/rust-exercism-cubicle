@@ -57,8 +57,8 @@ cargo watch -x 'test -p hello-world'
 - [x] sieve  - 4
 - [x] rna-transcription  - 4
 - [x] triangle  - 4
-- [X] grade-school  - 4
-- [ ] binary-search  - 4
+- [x] grade-school  - 4
+- [x] binary-search  - 4
 - [ ] robot-simulator  - 7
 - [ ] queen-attack  - 4
 - [ ] bowling  - 4
