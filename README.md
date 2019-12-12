@@ -59,7 +59,7 @@ cargo watch -x 'test -p hello-world'
 - [x] triangle  - 4
 - [x] grade-school  - 4
 - [x] binary-search  - 4
-- [ ] robot-simulator  - 7
+- [x] robot-simulator  - 7
 - [ ] queen-attack  - 4
 - [ ] bowling  - 4
 - [ ] tournament  - 4
