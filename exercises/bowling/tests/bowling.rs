@@ -1,14 +1,12 @@
 use bowling::*;
 
 #[test]
-#[ignore]
 fn roll_returns_a_result() {
     let mut game = BowlingGame::new();
     assert!(game.roll(0).is_ok());
 }
 
 #[test]
-#[ignore]
 fn you_cannot_roll_more_than_ten_pins_in_a_single_roll() {
     let mut game = BowlingGame::new();
 

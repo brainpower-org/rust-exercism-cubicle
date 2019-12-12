@@ -61,7 +61,7 @@ cargo watch -x 'test -p hello-world'
 - [x] binary-search  - 4
 - [x] robot-simulator  - 7
 - [x] queen-attack  - 4
-- [ ] bowling  - 4
+- [x] bowling  - 4
 - [ ] tournament  - 4
 - [ ] alphametics  - 4
 - [ ] two-bucket  - 4
