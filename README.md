@@ -60,7 +60,7 @@ cargo watch -x 'test -p hello-world'
 - [x] grade-school  - 4
 - [x] binary-search  - 4
 - [x] robot-simulator  - 7
-- [ ] queen-attack  - 4
+- [x] queen-attack  - 4
 - [ ] bowling  - 4
 - [ ] tournament  - 4
 - [ ] alphametics  - 4
