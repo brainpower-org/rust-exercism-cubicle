@@ -8,7 +8,6 @@ fn assert_alphametic_solution_eq(puzzle: &str, solution: &[(char, u8)]) {
 }
 
 #[test]
-#[ignore]
 fn test_with_three_letters() {
     assert_alphametic_solution_eq("I + BB == ILL", &[('I', 1), ('B', 9), ('L', 0)]);
 }

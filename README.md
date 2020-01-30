@@ -62,8 +62,8 @@ cargo watch -x 'test -p hello-world'
 - [x] robot-simulator  - 7
 - [x] queen-attack  - 4
 - [ ] bowling  - 4
-- [ ] tournament  - 4
-- [ ] alphametics  - 4
+- [x] tournament  - 4
+- [x] alphametics  - 4
 - [ ] two-bucket  - 4
 - [ ] spiral-matrix  - 4
 - [ ] palindrome-products  - 4
