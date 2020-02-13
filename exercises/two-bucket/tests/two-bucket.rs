@@ -1,7 +1,6 @@
 use two_bucket::{solve, Bucket, BucketStats};
 
 #[test]
-#[ignore]
 fn test_case_1() {
     assert_eq!(
         solve(3, 5, 1, &Bucket::One),

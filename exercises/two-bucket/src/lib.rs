@@ -1,3 +1,5 @@
+use std::cmp;
+
 #[derive(PartialEq, Eq, Debug)]
 pub enum Bucket {
     One,
@@ -25,4 +27,29 @@ pub fn solve(capacity_1: u8, capacity_2: u8, goal: u8, start_bucket: &Bucket) ->
         start_bucket,
         goal,
     );
+}
+
+struct BucketState {
+    capacity: u8,
+    content: u8,
+}
+
+impl BucketState {
+    fn empty(&mut self) {
+        self.content = 0
+    }
+
+    fn fill(&mut self) {
+        self.content = self.capacity
+    }
+
+    fn freeSpace(&self) -> u8 {
+        self.capacity - self.content
+    }
+
+    fn pour(&mut self, other: &mut BucketState) {
+        let to_fill = std::cmp::min(self.freeSpace(), other.content);
+        self.content += to_fill;
+        other.content -= to_fill;
+    }
 }
